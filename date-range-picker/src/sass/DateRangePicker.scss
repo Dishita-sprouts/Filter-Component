@@ -1,0 +1,20 @@
+.date-picker-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  .arrowIcons{
+    display: flex;
+    flex-direction: column;
+    img{
+      height: 4.76px;
+      width: 9.36px;
+    }
+  }
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}
+
